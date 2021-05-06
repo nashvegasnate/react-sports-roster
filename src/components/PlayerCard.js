@@ -39,25 +39,27 @@ const PlayerCard = ({
   };
 
   return (
-    <Card body>
-      <CardTitle tag="h5">{name}</CardTitle>
-      <CardText>Position: {position}</CardText>
-      <CardImg>{imageUrl}</CardImg>
-      <Button color="dark" onClick={() => handleClick('view')}>View Player</Button>
-      <Button color="danger" onClick={() => handleClick('delete')}>Delete Player</Button>
-      <Button color="info" onClick={() => handleClick('edit')}>
-        {editing ? 'Close Form' : 'Edit Player'}
-      </Button>
-      {
-        editing && <PlayerForm
-          formTitle='Edit Player'
-          setPlayers={setPlayers}
-          firebaseKey={firebaseKey}
-          name={name}
-          position={position}
-          imageUrl={imageUrl}
-        />
-      }
+      <Card>
+        <CardImg top width="100%" src={imageUrl} alt="Card image cap" />
+          <Card body>
+            <CardTitle tag="h5">{name}</CardTitle>
+            <CardText>Position: {position}</CardText>
+            <Button color="dark" onClick={() => handleClick('view')}>View Player</Button>
+            <Button color="danger" onClick={() => handleClick('delete')}>Delete Player</Button>
+            <Button color="info" onClick={() => handleClick('edit')}>
+            {editing ? 'Close Form' : 'Edit Player'}
+            </Button>
+            {
+            editing && <PlayerForm
+              formTitle='Edit Player'
+              setPlayers={setPlayers}
+              firebaseKey={firebaseKey}
+              name={name}
+              position={position}
+              imageUrl={imageUrl}
+            />
+            }
+        </Card>
     </Card>
   );
 };
@@ -66,7 +68,7 @@ PlayerCard.propTypes = {
   firebaseKey: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   position: PropTypes.string.isRequired,
-  imageUrl: PropTypes.string,
+  imageUrl: PropTypes.string.isRequired,
   setPlayers: PropTypes.func
 };
 
