@@ -15,15 +15,13 @@ const PlayerForm = ({
   setPlayers,
   name,
   position,
-  // imageUrl,
-  uid,
+  imageUrl,
   firebaseKey
 }) => {
   const [player, setPlayer] = useState({
     name: name || '',
     position: position || '',
-    // imageUrl: imageUrl || '',
-    uid: uid || '',
+    imageUrl: imageUrl || '',
     firebaseKey: firebaseKey || null
   });
   // const history = useHistory();
@@ -45,7 +43,7 @@ const PlayerForm = ({
       setPlayer({
         name: '',
         position: '',
-        // imageUrl: '',
+        imageUrl: '',
         firebaseKey: null
       });
     }
@@ -79,17 +77,17 @@ const PlayerForm = ({
           />
         </FormGroup>
 
-        {/* <FormGroup>
+        <FormGroup>
           <Label for="imageUrl">Image URL:</Label>
           <Input
             name='imageUrl'
             id='imageUrl'
             value={player.imageUrl}
-            type='url'
+            type='string'
             placeholder='Enter Image URL'
             onChange={handleInputChange}
           />
-        </FormGroup> */}
+        </FormGroup>
 
         <Button type='submit'>Submit</Button>
       </Form>
@@ -102,8 +100,7 @@ PlayerForm.propTypes = {
   setPlayers: PropTypes.func,
   name: PropTypes.string,
   position: PropTypes.string,
-  // imageUrl: PropTypes.image,
-  uid: PropTypes.string,
+  imageUrl: PropTypes.string,
   firebaseKey: PropTypes.string
 };
 
