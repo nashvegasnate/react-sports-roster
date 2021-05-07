@@ -40,7 +40,7 @@ const PlayerCard = ({
 
   return (
       <Card>
-        <CardImg top width="100%" src={imageUrl} alt="Card image cap" />
+        <CardImg src={imageUrl} />
           <Card body>
             <CardTitle tag="h5">{name}</CardTitle>
             <CardText>Position: {position}</CardText>
