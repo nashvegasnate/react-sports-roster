@@ -19,10 +19,10 @@ const NavBar = ({ user }) => {
   const authenticated = () => (
     <>
       <NavItem>
-        <Link className="nav-link" to="/add-player">Add Player</Link>
+        <Link className="nav-link" to="/players">Players</Link>
       </NavItem>
       <NavItem>
-        <Link className="nav-link" to="/players">Players</Link>
+        <Link className="nav-link" to="/add-player">Add Player</Link>
       </NavItem>
       </>
   );
@@ -30,7 +30,7 @@ const NavBar = ({ user }) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <Link className="navbar-brand" to="/">Team</Link>
+        <Link className="navbar-brand" to="/">Highlanders</Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>

@@ -35,9 +35,9 @@ function App() {
     <>
       <NavBar user={user} />
       <Routes
-      user={user}
-      players={players}
-      setPlayers={setPlayers}
+        user={user}
+        players={players}
+        setPlayers={setPlayers}
       />
     </>
   );
