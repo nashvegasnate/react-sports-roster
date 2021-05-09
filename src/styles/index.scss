@@ -1,6 +1,19 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import 'variables';
+@import 'cards';
+@import 'forms';
+@import 'pages';
+
 
 body {
   background-color: $favColor;
+  // display: flex;
+    justify-content: center;
+    // flex-flow: row wrap;
+    // background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Highlanders_NZ_rugby_union_team_logo.svg/1200px-Highlanders_NZ_rugby_union_team_logo.svg.png);
+    height: 100%;
+    width: 100%;
+    color: #fdc433;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    // font-weight: bold;
 }

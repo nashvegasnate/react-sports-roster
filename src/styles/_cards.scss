@@ -1,0 +1,22 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background-color: #14213D;
+
+  .card {
+    width: 300px;
+    margin: 5px;
+    color: #14213D
+  }
+
+  .card-body {
+    flex: none;
+    background-color: #fdc433
+  }
+}
+
+.card-img {
+    width: 300px;
+    margin: 5px
+}

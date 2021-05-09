@@ -60,7 +60,7 @@ const PlayerCard = ({
             />
             }
         </Card>
-    </Card>
+      </Card>
   );
 };
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import { useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import {
   Button,
   Form,
@@ -24,7 +24,7 @@ const PlayerForm = ({
     imageUrl: imageUrl || '',
     firebaseKey: firebaseKey || null
   });
-  // const history = useHistory();
+  const history = useHistory();
 
   const handleInputChange = (e) => {
     setPlayer((prevState) => ({
@@ -39,7 +39,13 @@ const PlayerForm = ({
       // make call to updateStudent to update student and rerender the DOM
       updatePlayer(player).then(setPlayers);
     } else {
-      addPlayer(player).then(setPlayers);
+      // addPlayer(player).then(setPlayers);
+      // history.push('/players');
+      addPlayer(player).then((response) => {
+        setPlayers(response);
+        history.push('/players');
+      });
+
       setPlayer({
         name: '',
         position: '',

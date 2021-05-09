@@ -34,7 +34,7 @@ export default function Routes({ user, players, setPlayers }) {
         <Route
           exact
           path='/'
-          component={Home} />
+          component={() => <Home user={user}/>}/>
         <PrivateRoute
           exact
           path='/players'
