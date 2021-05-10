@@ -7,13 +7,14 @@ export default function Home({ user }) {
     <div>
       { user
         ? <h1>Hello, {user.fullName}</h1>
-        : <h1>Hello!</h1>
+        : <h1>Welcome to Aotearoa Rugby</h1>
       }
       <img src={highlanderLogo} style={{
         backgroundSize: 'cover',
         height: '50em',
         width: '50em',
         padding: '2em',
+        marginTop: '5em',
         position: 'absolute',
         top: '50%',
         left: '50%',
