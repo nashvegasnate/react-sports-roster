@@ -43,7 +43,7 @@ export default function Routes({ user, players, setPlayers }) {
         />
         <PrivateRoute
           user={user}
-          path='/players/:firebaseKey'
+          path='/players/:id'
           component={SinglePlayer}
         />
         <PrivateRoute
