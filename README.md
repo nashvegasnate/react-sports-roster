@@ -1,6 +1,7 @@
 # Highlanders Rugby
 
-## Netlify Deployment
+## Netlify Deployment   [![Netlify Status](https://api.netlify.com/api/v1/badges/36947c47-9035-4738-9eec-215a0b6337a9/deploy-status)](https://app.netlify.com/sites/react-highlander-roster/deploys)
+
 
 ## User Story
 This app will a user to interact with the Highlanders rugby squad by:
@@ -15,10 +16,9 @@ This app will a user to interact with the Highlanders rugby squad by:
 
 # Loom Video
 
-# Contributors:
-Nathan Keith
-nashvegasnate@gmail.com
-github.com/nashvegasnate
+# Contributors: Nathan Keith
+### email: nashvegasnate@gmail.com
+### GitHub: github.com/nashvegasnate
 
 
 This is just like the webpack template. Use it, create the repo, connect it to your local and `npm i`.
