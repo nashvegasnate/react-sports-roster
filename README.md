@@ -1,7 +1,8 @@
 # Highlanders Rugby
 
-## Netlify Deployment  [![Netlify Status](https://api.netlify.com/api/v1/badges/36947c47-9035-4738-9eec-215a0b6337a9/deploy-status)](https://app.netlify.com/sites/react-highlander-roster/deploys)
-
+## Netlify Deployment 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/36947c47-9035-4738-9eec-215a0b6337a9/deploy-status)](https://app.netlify.com/sites/react-highlander-roster/deploys)
+ https://react-highlander-roster.netlify.app/ 
 
 ## User Story
 This app will a user to interact with the Highlanders rugby squad by:
