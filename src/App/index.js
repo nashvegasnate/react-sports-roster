@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import firebase from 'firebase/app';
 import 'firebase/auth';
 import NavBar from '../components/NavBar';
-import { getPlayers } from '../helpers/data/PlayerData';
 import Routes from '../helpers/Routes';
+import { getPlayers } from '../helpers/data/PlayerData';
 import './App.scss';
 
 function App() {
