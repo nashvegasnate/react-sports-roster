@@ -15,7 +15,7 @@ This app will a user to interact with the Highlanders rugby squad by:
 
 # ScreenShots
 
-# Loom Video
+# Loom Video Link https://www.loom.com/share/d8b62f601c8d40d28a5df2d591a13deb
 
 # Contributors: Nathan Keith
 ### email: nashvegasnate@gmail.com
