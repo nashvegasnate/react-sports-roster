@@ -30,3 +30,26 @@
   height: 100px;
   background-color: #fdc433;
 }
+
+.edit-player-form {
+  padding: 10px;
+  width: 300px;
+  margin: 5px;
+  color: #14213D;
+
+  h2 {
+    text-align: center;
+  }
+  
+  #name {
+    width: 80%;
+  }
+
+  #position {
+    width: 80%;
+  }
+
+  #imageUrl {
+    width: 80%;
+  }
+}
