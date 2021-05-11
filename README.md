@@ -24,7 +24,7 @@ This app will a user to interact with the Highlanders rugby squad by:
 - Firebase
 
 # ScreenShots
-https://github.com/nashvegasnate/react-sports-roster/blob/main/Screen%20Shot%202021-05-11%20at%201.48.43%20PM.png
+Screen Shot 2021-05-11 at 1.45.46 PM![image](https://user-images.githubusercontent.com/76710923/117870364-a1bcaa00-b261-11eb-9e88-3f7984ee4a62.png)
 
 # Loom Video Link 
 https://www.loom.com/share/d8b62f601c8d40d28a5df2d591a13deb
