@@ -5,17 +5,16 @@
  https://react-highlander-roster.netlify.app/ 
 
 ## User Story
+The Highlanders New Zealand Super Rugby team sports roster app provides a website for enthusiasts to view and edit the lineups for their favorite rugby team.
+
+## List of Features
 This app will a user to interact with the Highlanders rugby squad by:
+  - allowing a user to login with Google authentication with user-specific views
   - viewing the players as a team
   - viewing the players individually
   - edit each player's information, including name, position, and image
   - create new members of the team, including adding name, position, and image
   - remove members from the team
-  
-## List of Features
-- Ability to Create, Read, Edit and Update team members
-- Ability to view all members of the team at once as well as individually
-- Google authentication login with user-specific views
 
 ## Technologies Used
 - ReactJS
@@ -25,11 +24,7 @@ This app will a user to interact with the Highlanders rugby squad by:
 - Firebase
 
 # ScreenShots
-![Screen Shot 2021-05-11 at 1 46 38 PM](https://user-images.githubusercontent.com/76710923/117868691-805abe80-b25f-11eb-8bea-db7d47110c33.png)
-![Screen Shot 2021-05-11 at 1 47 00 PM](https://user-images.githubusercontent.com/76710923/117868711-881a6300-b25f-11eb-9bc2-1032431085e5.png)
-![Screen Shot 2021-05-11 at 1 45 46 PM](https://user-images.githubusercontent.com/76710923/117868644-746efc80-b25f-11eb-8e82-13f7cd923cc9.png)
-![Screen Shot 2021-05-11 at 1 48 43 PM](https://user-images.githubusercontent.com/76710923/117868817-a8e2b880-b25f-11eb-983b-51e28620c76d.png)
-![Screen Shot 2021-05-11 at 1 46 45 PM](https://user-images.githubusercontent.com/76710923/117868833-ada76c80-b25f-11eb-9046-cc163d029f0b.png)
+
 
 
 # Loom Video Link 
