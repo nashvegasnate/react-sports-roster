@@ -26,7 +26,7 @@ export default function SinglePlayerCard({ player }) {
 }
 
 SinglePlayerCard.propTypes = {
-  // children: PropTypes.any,
+  children: PropTypes.any,
   position: PropTypes.any,
   player: PropTypes.object,
   imageUrl: PropTypes.string

@@ -16,13 +16,15 @@ const PlayerForm = ({
   name,
   position,
   imageUrl,
-  firebaseKey
+  firebaseKey,
+  uid
 }) => {
   const [player, setPlayer] = useState({
     name: name || '',
     position: position || '',
     imageUrl: imageUrl || '',
-    firebaseKey: firebaseKey || null
+    firebaseKey: firebaseKey || null,
+    uid: uid || null,
   });
   const history = useHistory();
 
@@ -50,7 +52,8 @@ const PlayerForm = ({
         name: '',
         position: '',
         imageUrl: '',
-        firebaseKey: null
+        firebaseKey: null,
+        uid: null,
       });
     }
   };
@@ -107,7 +110,8 @@ PlayerForm.propTypes = {
   name: PropTypes.string,
   position: PropTypes.string,
   imageUrl: PropTypes.string,
-  firebaseKey: PropTypes.string
+  firebaseKey: PropTypes.string,
+  uid: PropTypes.string
 };
 
 export default PlayerForm;

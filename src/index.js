@@ -1,6 +1,6 @@
-import firebase from 'firebase/app';
-import { BrowserRouter as Router } from 'react-router-dom';
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import firebase from 'firebase/app';
 import ReactDOM from 'react-dom';
 import firebaseConfig from './helpers/apiKeys';
 import App from './App';
