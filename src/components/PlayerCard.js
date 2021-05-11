@@ -9,7 +9,7 @@ import {
 } from 'reactstrap';
 import PropTypes from 'prop-types';
 import { deletePlayer } from '../helpers/data/PlayerData';
-import PlayerForm from './PlayerForm';
+import EditPlayerForm from './EditPlayerForm';
 
 const PlayerCard = ({
   firebaseKey,
@@ -50,7 +50,7 @@ const PlayerCard = ({
             {editing ? 'Close Form' : 'Edit Player'}
             </Button>
             {
-            editing && <PlayerForm
+            editing && <EditPlayerForm
               formTitle='Edit Player'
               setPlayers={setPlayers}
               firebaseKey={firebaseKey}
